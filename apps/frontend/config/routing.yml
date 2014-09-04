@@ -2,6 +2,7 @@
 # http://www.symfony-project.org/reference/1_4/en/10-Routing
 
 # default rules
+<<<<<<< HEAD
 category:
   url:      /category/:slug
   class:    sfDoctrineRoute
@@ -35,3 +36,17 @@ homepage:
  
 #default:
  # url:   /:module/:action/*
+=======
+homepage:
+  url:   /
+  param: { module: default, action: index }
+
+# generic rules
+# please, remove them by adding more specific rules
+default_index:
+  url:   /:module
+  param: { action: index }
+
+default:
+  url:   /:module/:action/*
+>>>>>>> 944f251439e2880557d83e2a69d1253b2d83d432

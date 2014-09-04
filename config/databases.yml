@@ -1,7 +1,19 @@
+<<<<<<< HEAD
+=======
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/07-Databases
+
+>>>>>>> 944f251439e2880557d83e2a69d1253b2d83d432
 all:
   doctrine:
     class: sfDoctrineDatabase
     param:
+<<<<<<< HEAD
       dsn: 'mysql:host=localhost;dbname=jobeet'
       username: root
       password: root
+=======
+      dsn:      mysql:host=localhost;dbname=tesis
+      username: root
+      password: 
+>>>>>>> 944f251439e2880557d83e2a69d1253b2d83d432
